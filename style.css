@@ -1,0 +1,30 @@
+body{
+    font-family: 'Prompt', sans-serif;
+}
+h1{
+    font-size:50px;
+}
+#kalar{
+    color:#ffa500;
+}
+#hydai{
+    display: flex;
+}
+.jaiga{
+    width: 50%;
+    padding-left: 5%;
+   
+}
+.jaiga img{
+    width: 80%;
+    
+}
+.kije{
+    background-image:linear-gradient(orange,tomato);
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
