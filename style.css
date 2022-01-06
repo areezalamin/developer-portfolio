@@ -1,30 +1,71 @@
 body{
     font-family: 'Prompt', sans-serif;
+    margin: 0 ;
 }
 h1{
-    font-size:50px;
+    font-size: 50px;
 }
-#kalar{
+.kalar{
     color:#ffa500;
 }
-#hydai{
+.flexible-containar{
     display: flex;
+    margin-bottom: 150px;
 }
 .jaiga{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
    
 }
 .jaiga img{
+
     width: 80%;
     
 }
 .kije{
-    background-image:linear-gradient(orange,tomato);
-    font-size: 15px;
+    background-image:linear-gradient(#fa5151,orange);
     font-weight: 700;
     color: white;
     border-radius: 5px;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
+}
+.kmon{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.orange{
+    color: orange;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.areez{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    box-shadow: 20px 20px 40px gray;
+}
+#nale{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+#hale{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
